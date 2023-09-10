@@ -1,37 +1,15 @@
-# phovid-19
+# phovid
 
-Lets you use both video and photo
+This is a [Capacitor](https://capacitorjs.com/) plugin that lets you capture both video and photo input, simultaneously.
+While there are a couple plugins for general media capture, there is no plugin that handles both.
+I initially wrote this for a client, who needed an Instagram-style story creator.
+
+I have no intentions on supporting it long term.
+If anyone wants to take ownership of this project, please reach out!
 
 ## Install
 
 ```bash
-npm install phovid-19
+npm install phovid
 npx cap sync
 ```
-
-## API
-
-<docgen-index>
-
-* [`echo(...)`](#echo)
-
-</docgen-index>
-
-<docgen-api>
-<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
-
-### echo(...)
-
-```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
-```
-
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
-
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
-
---------------------
-
-</docgen-api>
